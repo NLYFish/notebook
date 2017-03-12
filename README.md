@@ -1,6 +1,8 @@
-# 笔记本
+<h1>笔记本</h1>
 
-好记性不如烂笔头~
+<p>好记性不如烂笔头~</p>
 
 javaweb
-转发与重定向：https://nlyfish.github.io/notebook/javaweb/转发与重定向.txt
+<ul>
+<li><a href="https://nlyfish.github.io/notebook/javaweb/转发与重定向.txt">转发与重定向</a></li>
+</ul>
