@@ -1,2 +1,8 @@
-转发与重定向
+﻿转发与重定向
 forward and redirect
+
+转发
+request.getRequestDispatcher().forward();
+
+重定向
+response.sendRedirect();
