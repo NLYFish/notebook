@@ -1,2 +1,7 @@
-随机数生成
+﻿随机数生成
 Random
+
+·java.util.Random;
+
+　Random random = new Random();
+　random.nextInt(int n);-> [0,n]
