@@ -5,3 +5,5 @@ Random
 
 　Random random = new Random();
 　random.nextInt(int n);-> [0,n]
+
+·java.lang.Math
