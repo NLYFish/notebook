@@ -4,6 +4,7 @@
 <div>java</div>
 <ul>
 <li><a href="https://nlyfish.github.io/notebook/java/随机数生成.txt" target="_blank">随机数生成</a></li>
+<li><a href="https://nlyfish.github.io/notebook/java/时间.txt" target="_blank">时间</a></li>
 </ul>
 </p>
 <p>
