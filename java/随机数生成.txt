@@ -3,7 +3,20 @@ Random
 
 ·java.util.Random;
 
-　Random random = new Random();
-　random.nextInt(int n);-> [0,n]
+  Random random = new Random();             ->Random(){ this(System.currentTimeMillis()) };    
+  Random random = new Random(long seed);    ->Random(long seed){ setSeed(seed); }
+
+  random.nextInt();         -> (-max,max);int;
+　random.nextInt(int n);    -> [0,n);int;
+  random.nextBoolean();     -> true/false;
+
+  注：seed相同，程序运行生成结果相同。
+
 
 ·java.lang.Math
+
+  Math.random();   -> [0.0,1.0);double;
+
+  
+  
+
