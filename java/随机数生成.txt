@@ -16,7 +16,3 @@ Random
 ·java.lang.Math
 
   Math.random();   -> [0.0,1.0);double;
-
-  
-  
-

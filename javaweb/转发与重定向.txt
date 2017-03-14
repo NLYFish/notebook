@@ -1,5 +1,5 @@
 ﻿转发与重定向
-Forward and Redirect
+forward and redirect
 
 ·转发
   request.getRequestDispatcher("/demo.jsp").forward(request,response);
@@ -11,6 +11,7 @@ Forward and Redirect
   response.sendRedirect("demo.jsp");
   过程经过客户端完成    -> 客户（请求）服务器（响应）客户（请求）服务器（响应）客户
   浏览器URL发生改变
+
 
 
 URL
@@ -25,4 +26,3 @@ URL
   demo.jsp     -> http://localhost:8080/demo/demo.jsp
   /demo.jsp    -> http://localhost:8080/demo.jsp
   （正确）http://localhost:8080/demo/demo.jsp
-  

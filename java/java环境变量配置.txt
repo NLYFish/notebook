@@ -1,0 +1,7 @@
+﻿java环境变量配置
+
+·Windows
+
+  JAVA_HOME = JDK安装路径
+  Path = %JAVA_HOME%\bin
+  CLASSPATH = .;%JAVA_HOME%\lib\tools.jar;%JAVA_HOME%\lib\dt.jar

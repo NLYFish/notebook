@@ -1,0 +1,32 @@
+﻿接口与抽象类
+interface and abstract
+
+·接口                                        -> 多继承
+  interface demo{                             
+      public staitc final int PI = 3.1415;    -> 只能有静态变量
+      public void f();                        
+      public abstract void af();              -> 只能有空方法或抽象方法
+  }                                            （没有花括号/只声明无实现）
+
+  class demoImpl implements demo{             
+      public void f(){ }                      -> 必须实现空方法与抽象方法
+      public void af(){ }
+  }
+
+
+·抽象类                                    -> 单继承
+  abstract class demoAb{                    
+      public abstract void af();            -> 可以没有抽象方法（没有花括号/只声明无实现）  
+  }                                            可以有静态变量、实例变量和非抽象方法
+  
+  class demo extends demo{                  -> 实现抽象方法，子类不为抽象类
+      public void af();
+  }
+
+  abstract class demo2 extends demoAb{ }    -> 没有实现抽象方法，子类为抽象类
+ 
+
+·两者相同点
+
+  只能用public、abstract修饰
+  不能实例化

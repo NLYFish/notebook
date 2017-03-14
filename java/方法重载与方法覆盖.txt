@@ -1,0 +1,32 @@
+﻿方法重载与方法覆盖
+
+·方法重载
+
+  class demo{                -> 一个类中    
+      void f(){ }            -> 同名方法
+      void f(int a){ }       -> 参数个数不同
+      void f(String s){ }    -> 参数类型不同
+      int f(){ } （错误）    -> 不能靠返回值类型区别重载
+  }  
+
+
+·方法覆盖
+  
+  class father{
+      void f(){ }
+  }
+
+  class son extends father{    
+      void f(){ }              ->子类覆盖方法与父类方法特征相同（名字、参数、返回值类型）
+  }
+
+  子类覆盖方法不能降低父类方法的访问权限！
+
+
+·访问权限
+  public > protected > 无修饰符（默认） > private
+
+  public              -> 同包、不同包子类
+  protected           -> 全部
+  无修饰符（默认）    -> 同包
+  private             -> 类内
