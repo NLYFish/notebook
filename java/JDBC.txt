@@ -1,1 +1,29 @@
 ﻿JDBC
+
+  import java.sql.*;
+  
+·连接
+  String url="jdbc:mysql://localhost:3306/"
+  String username="root";
+  String password="root";
+
+  Class.forName("com.mysql.jdbc.Driver");
+  Connection conn = DriverManager.getConnection(url,username,password);
+
+·操作
+  String name="root";
+  String sql="select * from user where name = ?";
+  PreparedStatement st=conn.prepareStatement(sql);
+  st.setString(1,name);
+  
+  ResultSet rs=st.executeQuery();
+  while(rs.next()){
+      rs.getString("");
+  }
+
+  ResultSet rs=st.executeUpdate();
+  
+·关闭
+  rs.close();
+  st.close();
+  conn.close();
