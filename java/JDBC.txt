@@ -20,7 +20,6 @@
   while(rs.next()){
       rs.getString("");
   }
-
   ResultSet rs=st.executeUpdate();
   
 ·关闭
