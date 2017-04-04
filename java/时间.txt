@@ -6,11 +6,21 @@ Date
   Date date = new Date();    -> 获取当前时间
 
 
+String 转 Date
+
+·java.text.SimpleDateFormat
+
+  String dateString = "1995-03-27";
+  SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+  Date date=sdf.parse(dateString);
+
+
+
 Date 转 String
 
 ·java.text.SimpleDateFormat
   
-  SimpleDateFormat sdf = new SimpleDateFormat("时间格式");
+  SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
   sdf.format(date);
   
 

@@ -7,7 +7,7 @@
   
   Socket socket = new Socket("127.0.0.1",5327);    -> "127.0.0.1" = "localhost"
 
-  BufferedReader is = new BufferedReader(new InputStreamReader(socket.getInputStrea()));
+  BufferedReader is = new BufferedReader(new InputStreamReader(socket.getInputStream()));
   is.readLine();    -> 收到服务器传来信息
 
   PrintWriter os = new PrintWriter(socket.getOutputStream());
